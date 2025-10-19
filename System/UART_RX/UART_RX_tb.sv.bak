@@ -1,0 +1,159 @@
+`timescale 1ns/1ps
+
+module UART_RX_TB ();
+
+// TX CLK = 115.2 KHz
+localparam CLK_CYCLE_TX = 8.68 ;
+
+reg 					CLK_TX_tb;
+reg       		CLK_RX_tb;
+reg						RST_tb;
+reg						RX_IN_tb;
+reg	    [3:0]	prescale_tb;
+reg						PAR_EN_tb;
+reg						PAR_TYP_tb;
+wire		[7:0]	P_DATA_tb;
+wire					par_err_tb;
+wire					stp_err_tb;
+wire					data_valid_tb;
+
+// Initial block
+initial 
+  begin
+	  $dumpfile("UART_RX.vcd");
+	  $dumpvars;
+		// Initial default values
+	  initialize();
+		reset();	
+
+		UART_CONFIG(1'b1,1'b0,4'd4);
+		// data = 8'h17,prescale = 4,PAR_EN =1,EVEN_PAR
+		receive_data(8'h16);
+
+		check_received(8'h16);
+		//@(2*CLK_CYCLE_TX);	
+
+		#(4*CLK_CYCLE_TX);
+
+		UART_CONFIG(1'b1,1'b1,4'd4);
+		// data = 8'h17,prescale = 4,PAR_EN =1,EVEN_PAR
+		receive_data(8'h16);
+
+		check_received(8'h16);
+
+		#(4*CLK_CYCLE_TX);
+	  // Apply reset at the end
+	  //reset();
+	  $stop;
+	end
+
+// TASKS
+task initialize;
+	begin
+		CLK_TX_tb		= 1'b0;
+		CLK_RX_tb		= 1'b0;
+		RST_tb			= 1'b1;
+		RX_IN_tb		= 1'b1; // UART IDLE
+		prescale_tb	= 4'b1000; // prescale = 8
+		PAR_EN_tb		= 1'b0;
+		PAR_TYP_tb	= 1'b0;
+	end
+endtask
+
+task reset;
+	begin
+		#(CLK_CYCLE_TX);
+		RST_tb = 1'b0;
+		#(CLK_CYCLE_TX);
+		RST_tb = 1'b1;
+		#(CLK_CYCLE_TX);		
+	end
+endtask
+
+task UART_CONFIG ;
+  input                   PAR_EN_tb_task ;
+  input                   PAR_TYP_tb_task ;
+  input    [3:0]          prescale_tb_task;
+
+  begin
+	PAR_EN_tb  		= PAR_EN_tb_task   ;
+	PAR_TYP_tb    = PAR_TYP_tb_task  ;
+	prescale_tb   = prescale_tb_task ;    	
+  end
+endtask
+
+task receive_data ;
+	input 	[7:0]	data_task;
+
+	integer i;
+	begin
+
+		// Start Bit
+		@(posedge CLK_TX_tb);
+		RX_IN_tb <= 1'b0;
+
+		for (i = 0;i < 8 ;i = i+1 ) 
+			begin
+				@(posedge CLK_TX_tb);
+				RX_IN_tb <= data_task[i];	
+			end
+		
+		if (PAR_EN_tb)
+			begin
+				@(posedge CLK_TX_tb);
+				if (!PAR_TYP_tb) 
+					begin
+						RX_IN_tb <= ^data_task;
+					end
+				else
+					begin
+						RX_IN_tb <= ~^data_task;
+					end
+			end
+		//Stop Bit
+
+		@(posedge CLK_TX_tb);
+		RX_IN_tb <= 1'b1;
+
+		#CLK_TX_tb;
+	end
+endtask
+
+task check_received (
+
+	input 	[7:0]	exp_data_task
+); 
+	begin
+		wait(data_valid_tb);
+		if(P_DATA_tb == exp_data_task) 
+			begin
+				$display("Test Case succeeded");
+			end
+		else
+			begin
+				$display("Test Case failed");
+			end
+	end
+endtask
+
+/*  Clock Generators (CLK_RX_tb) multiply the frequency by prescale
+    so divide the clk period of CLK_TX_tb by it*/
+always #(CLK_CYCLE_TX/prescale_tb/2) CLK_RX_tb = ~CLK_RX_tb;
+always #(CLK_CYCLE_TX/2) CLK_TX_tb = ~CLK_TX_tb;    
+
+// DUT Instantiation
+UART_RX DUT (
+
+    .CLK(CLK_RX_tb),
+    .RST(RST_tb),
+    .RX_IN(RX_IN_tb),
+    .prescale(prescale_tb),
+    .PAR_EN(PAR_EN_tb),
+    .PAR_TYP(PAR_TYP_tb),
+    .P_DATA(P_DATA_tb),
+    .par_err(par_err_tb),
+    .stp_err(stp_err_tb),
+    .data_valid(data_valid_tb)
+);
+
+endmodule

@@ -1,0 +1,396 @@
+$date
+	Thu Aug 14 05:26:48 2025
+$end
+$version
+	QuestaSim Version 2021.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module UART_TX_tb $end
+$var parameter 32 ! CLK_CYCLE $end
+$var reg 1 " CLK_tb $end
+$var reg 1 # RST_tb $end
+$var reg 8 $ P_DATA_tb [7:0] $end
+$var reg 1 % DATA_VALID_tb $end
+$var reg 1 & PAR_EN_tb $end
+$var reg 1 ' PAR_TYP_tb $end
+$var wire 1 ( BUSY_tb $end
+$var wire 1 ) TX_OUT_tb $end
+
+$scope task initialize $end
+$upscope $end
+
+$scope task reset $end
+$upscope $end
+
+$scope task Send_Byte $end
+$var reg 8 * p_data_task [7:0] $end
+$var reg 1 + par_en_task $end
+$var reg 1 , par_typ_task $end
+$upscope $end
+
+$scope module DUT $end
+$var wire 1 - CLK $end
+$var wire 1 . RST $end
+$var wire 1 / P_DATA [7] $end
+$var wire 1 0 P_DATA [6] $end
+$var wire 1 1 P_DATA [5] $end
+$var wire 1 2 P_DATA [4] $end
+$var wire 1 3 P_DATA [3] $end
+$var wire 1 4 P_DATA [2] $end
+$var wire 1 5 P_DATA [1] $end
+$var wire 1 6 P_DATA [0] $end
+$var wire 1 7 DATA_VALID $end
+$var wire 1 8 PAR_EN $end
+$var wire 1 9 PAR_TYP $end
+$var wire 1 ( BUSY $end
+$var wire 1 ) TX_OUT $end
+$var wire 1 : mux_sel_top [2] $end
+$var wire 1 ; mux_sel_top [1] $end
+$var wire 1 < mux_sel_top [0] $end
+$var wire 1 = ser_en_top $end
+$var wire 1 > ser_done_top $end
+$var wire 1 ? ser_data_top $end
+$var wire 1 @ ser_busy_top $end
+$var wire 1 A par_bit_top $end
+
+$scope module U0_FSM $end
+$var parameter 3 B idle_out $end
+$var parameter 3 C start_bit $end
+$var parameter 3 D ser_data $end
+$var parameter 3 E stop_bit $end
+$var parameter 3 F par_bit $end
+$var wire 1 - CLK $end
+$var wire 1 . RST $end
+$var wire 1 7 DATA_VALID $end
+$var wire 1 > ser_done $end
+$var wire 1 @ ser_busy $end
+$var wire 1 8 PAR_EN $end
+$var reg 1 G ser_en $end
+$var reg 1 H busy $end
+$var reg 3 I Mux_Sel [2:0] $end
+$var reg 3 J current_state [2:0] $end
+$var reg 3 K next_state [2:0] $end
+$var reg 1 L busy_comb $end
+$upscope $end
+
+$scope module U0_Serializer $end
+$var wire 1 - CLK $end
+$var wire 1 . RST $end
+$var wire 1 / P_DATA [7] $end
+$var wire 1 0 P_DATA [6] $end
+$var wire 1 1 P_DATA [5] $end
+$var wire 1 2 P_DATA [4] $end
+$var wire 1 3 P_DATA [3] $end
+$var wire 1 4 P_DATA [2] $end
+$var wire 1 5 P_DATA [1] $end
+$var wire 1 6 P_DATA [0] $end
+$var wire 1 = Ser_en $end
+$var reg 1 M Ser_done $end
+$var reg 1 N ser_busy $end
+$var reg 1 O Ser_data $end
+$var reg 8 P shift_reg [7:0] $end
+$var reg 3 Q bit_counter [2:0] $end
+$upscope $end
+
+$scope module U0_Parity_Calc $end
+$var parameter 1 R EVEN_PARITY $end
+$var parameter 1 S ODD_PARITY $end
+$var wire 1 - CLK $end
+$var wire 1 . RST $end
+$var wire 1 / P_DATA [7] $end
+$var wire 1 0 P_DATA [6] $end
+$var wire 1 1 P_DATA [5] $end
+$var wire 1 2 P_DATA [4] $end
+$var wire 1 3 P_DATA [3] $end
+$var wire 1 4 P_DATA [2] $end
+$var wire 1 5 P_DATA [1] $end
+$var wire 1 6 P_DATA [0] $end
+$var wire 1 7 DATA_VALID $end
+$var wire 1 9 PAR_TYP $end
+$var reg 1 T Par_bit $end
+$var reg 1 U Par_bit_comb $end
+$upscope $end
+
+$scope module U0_MUX $end
+$var parameter 3 V idle_sel $end
+$var parameter 3 W start_sel $end
+$var parameter 3 X ser_data_sel $end
+$var parameter 3 Y stop_bit_sel $end
+$var parameter 3 Z par_bit_sel $end
+$var parameter 1 [ idle_out $end
+$var parameter 1 \ start_out $end
+$var parameter 1 ] stop_out $end
+$var wire 1 - CLK $end
+$var wire 1 . RST $end
+$var wire 1 : Mux_Sel [2] $end
+$var wire 1 ; Mux_Sel [1] $end
+$var wire 1 < Mux_Sel [0] $end
+$var wire 1 ? Ser_Data $end
+$var wire 1 A par_Bit $end
+$var reg 1 ^ TX_OUT $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+0#
+b0 $
+0%
+0&
+0'
+bx *
+x+
+x,
+0G
+0H
+b0 I
+b0 J
+b0 K
+xL
+0M
+0N
+xO
+b0 P
+b0 Q
+0T
+0U
+1^
+b101 !
+b0 B
+b1 C
+b11 D
+b10 E
+b110 F
+b0 R
+b1 S
+b0 V
+b1 W
+b11 X
+b10 Y
+b110 Z
+b1 [
+b0 \
+b1 ]
+0(
+1)
+0<
+0;
+0:
+0=
+0>
+x?
+0@
+0A
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+$end
+#2500
+1"
+1-
+#5000
+1#
+b110010 *
+1+
+0,
+b110010 $
+1&
+1%
+0"
+1.
+15
+12
+11
+18
+17
+0-
+1G
+b1 K
+1U
+1=
+#7500
+1"
+1-
+b1 J
+b110010 P
+b111 Q
+1N
+1T
+1@
+1A
+b11 K
+0G
+b1 I
+1H
+1G
+1(
+1<
+0^
+0)
+#10000
+0%
+0"
+07
+0-
+b1 K
+b11 K
+0G
+b0 I
+b1 I
+1G
+#12500
+1"
+1-
+0O
+b11001 P
+b110 Q
+b11 J
+0?
+0G
+b0 I
+b11 I
+1G
+1;
+#15000
+0"
+0-
+#17500
+1"
+1-
+1O
+b1100 P
+b101 Q
+1?
+1^
+1)
+#20000
+0"
+0-
+#22500
+1"
+1-
+0O
+b110 P
+b100 Q
+0?
+0^
+0)
+#25000
+0"
+0-
+#27500
+1"
+1-
+b11 P
+b11 Q
+#30000
+0"
+0-
+#32500
+1"
+1-
+1O
+b1 P
+b10 Q
+1?
+1^
+1)
+#35000
+0"
+0-
+#37500
+1"
+1-
+b0 P
+b1 Q
+#40000
+0"
+0-
+#42500
+1"
+1-
+0O
+b0 Q
+0?
+0^
+0)
+#45000
+0"
+0-
+#47500
+1"
+1-
+0N
+1M
+0@
+1>
+b10 K
+0G
+b0 I
+b11 I
+0=
+#50000
+0"
+0-
+#52500
+1"
+1-
+b10 J
+0M
+0>
+b110 K
+b0 I
+b110 I
+0<
+1:
+1^
+1)
+#55000
+0"
+0-
+#57500
+1"
+1-
+b110 J
+b0 K
+b0 I
+b10 I
+0:
+#60000
+0"
+0-
+#62500
+1"
+1-
+b0 J
+b0 I
+0H
+0(
+0;
+#65000
+0"
+0-
+#67500
+1"
+1-
+#70000
+0"
+0-

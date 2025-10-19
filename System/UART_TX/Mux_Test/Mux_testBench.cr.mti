@@ -1,0 +1,15 @@
+{F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/MUX.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/MUX.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Mux_Test/MUX_tb.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Mux_Test/MUX_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_MUX
+
+Top level modules:
+	tb_MUX
+
+} {} {}}

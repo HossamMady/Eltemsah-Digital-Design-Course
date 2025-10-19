@@ -1,0 +1,10 @@
+Write Freq = 100 MHz ----> T write = 10 ns
+Read Freq = 40 MHz ----> T read = 25 ns
+
+so , for 9 bytes :
+we will write them in 90 ns 
+
+in this 90 ns we will make 90/25 = 3.6
+so 3 read operations 
+
+therefore : min. ddepth = 9-3 = 6 bytes 

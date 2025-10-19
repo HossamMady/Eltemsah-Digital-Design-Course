@@ -1,0 +1,285 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1756647056
+V34YLY<U;`NQ[:lO;[Z:`L3
+04 7 4 work UART_RX fast 0
+=1-b40edeb762db-68b44e90-2de-5f24
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1756650018
+V3lVPl;2O9HB_MS1<<k[W12
+04 10 4 work UART_RX_TB fast 0
+=1-b40edeb762db-68b45a22-2d2-3bac
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+vData_Sampling
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1756654378
+!i10b 1
+!s100 gXPEL:Kk@g:NE78nRUiIB0
+IgfIAboMRA7NPjMlZD^N?R0
+S1
+Z8 dF:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX
+w1756648485
+8Data_Sampling.sv
+FData_Sampling.sv
+!i122 408
+L0 1 115
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1756654378.000000
+!s107 stop_check.sv|start_check.sv|parity_check.sv|edge_bit_counter.sv|UART_RX_tb.sv|UART_RX.sv|FSM_RX.sv|Deserializer.sv|Data_Sampling.sv|
+Z12 !s90 -reportprogress|300|Data_Sampling.sv|Deserializer.sv|FSM_RX.sv|UART_RX.sv|UART_RX_tb.sv|edge_bit_counter.sv|parity_check.sv|start_check.sv|stop_check.sv|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@data_@sampling
+vDeserializer
+R6
+R7
+!i10b 1
+!s100 `4`8Wb;JO3JI14CFC[jMj0
+IG@SdU_CfJla^CPQh=n@_B1
+S1
+R8
+w1756637214
+8Deserializer.sv
+FDeserializer.sv
+!i122 408
+L0 1 25
+R9
+R10
+r1
+!s85 0
+31
+R11
+Z14 !s107 stop_check.sv|start_check.sv|parity_check.sv|edge_bit_counter.sv|UART_RX_tb.sv|UART_RX.sv|FSM_RX.sv|Deserializer.sv|Data_Sampling.sv|
+R12
+!i113 0
+R13
+R4
+n@deserializer
+vedge_bit_counter
+R6
+R7
+!i10b 1
+!s100 T47::bO6Cdk75J7:A6Y?61
+ICe6^?Ee0?3?=5OR9D]6<U2
+S1
+R8
+w1756637497
+8edge_bit_counter.sv
+Fedge_bit_counter.sv
+!i122 408
+L0 1 53
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+vFSM_RX
+R6
+R7
+!i10b 1
+!s100 :a@OP^DbYn[X:_V@Kj6oD0
+Ih^7hU[12F>O_Hg>`<zL_d0
+S1
+R8
+w1756648145
+8FSM_RX.sv
+FFSM_RX.sv
+!i122 408
+L0 1 269
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+n@f@s@m_@r@x
+vparity_check
+R6
+R7
+!i10b 1
+!s100 zh74`ccidm8okg4k[Q8CH2
+ImcMOF_SY5ODVHhb1S]:IO3
+S1
+R8
+w1756647720
+8parity_check.sv
+Fparity_check.sv
+!i122 408
+L0 1 42
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+vstart_check
+R6
+R7
+!i10b 1
+!s100 diEh7_Y=]Bd9FYN?2gkC[3
+I;Xn3Q`mQm?2dSSlh8hL5B1
+S1
+R8
+w1756637788
+8start_check.sv
+Fstart_check.sv
+!i122 408
+Z15 L0 1 27
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+vstop_check
+R6
+R7
+!i10b 1
+!s100 Yz1_WmbZ:[Cg`]@EbW`<93
+I9>9M>GZFKeTOe^mniITzE0
+S1
+R8
+w1756637782
+8stop_check.sv
+Fstop_check.sv
+!i122 408
+R15
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+vUART_RX
+R6
+R7
+!i10b 1
+!s100 WF?ajKFelThQ4MhWP6?_30
+IB^EQKZd^e0E2Edf]P4`N40
+S1
+R8
+w1756647746
+8UART_RX.sv
+FUART_RX.sv
+!i122 408
+L0 1 112
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+n@u@a@r@t_@r@x
+vUART_RX_TB
+R6
+R7
+!i10b 1
+!s100 XhSLBXA[^?]Hl8DgfL6NO2
+I7XRdHQze@k7=e6]oCllgX2
+S1
+R8
+w1756650008
+8UART_RX_tb.sv
+FUART_RX_tb.sv
+!i122 408
+L0 3 155
+R9
+R10
+r1
+!s85 0
+31
+R11
+R14
+R12
+!i113 0
+R13
+R4
+n@u@a@r@t_@r@x_@t@b

@@ -1,0 +1,43 @@
+{F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/fifo_mem.v} {1 {vlog -work work -vopt -stats=none {F:\EECE\course_workshop\Digital_Design_ Course\CDC\Assignments\Async_FIFO\fifo_mem.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module fifo_mem
+
+Top level modules:
+	fifo_mem
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/DF_Sync.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/DF_Sync.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DF_Sync
+
+Top level modules:
+	DF_Sync
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/Async_fifo_tb.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/Async_fifo_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Async_fifo_tb
+
+Top level modules:
+	Async_fifo_tb
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/fifo_wr.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/fifo_wr.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module fifo_wr
+
+Top level modules:
+	fifo_wr
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/Async_fifo.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/Async_fifo.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Async_fifo
+
+Top level modules:
+	Async_fifo
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/fifo_rd.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO/fifo_rd.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module fifo_rd
+
+Top level modules:
+	fifo_rd
+
+} {} {}}

@@ -1,0 +1,69 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1757598267
+VWzf^2H`SYb^`U7XBAhMSN0
+04 11 4 work RST_SYNC_tb fast 0
+=1-b40edeb762db-68c2d23a-3af-4a88
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vRST_SYNC
+Z2 !s110 1757598266
+!i10b 1
+!s100 0XLCbOXZ_19cgDeH_ZF0k0
+IMko=OezP4j5[;Vl99zDk93
+Z3 dF:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Reset_Sync
+w1757598231
+8RST_SYNC.v
+FRST_SYNC.v
+!i122 4
+L0 1 34
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1757598266.000000
+Z7 !s107 RST_SYNC_tb.v|RST_SYNC.v|
+Z8 !s90 -reportprogress|300|RST_SYNC.v|RST_SYNC_tb.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@r@s@t_@s@y@n@c
+vRST_SYNC_tb
+R2
+!i10b 1
+!s100 G^lXcm2PV7iE94GYTCQ133
+I=URzSCo1BWU]gmmU;SNNZ2
+R3
+w1757597865
+8RST_SYNC_tb.v
+FRST_SYNC_tb.v
+!i122 4
+L0 1 44
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@r@s@t_@s@y@n@c_tb

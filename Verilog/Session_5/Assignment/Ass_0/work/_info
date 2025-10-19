@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+vCRC
+Z0 !s110 1754323594
+!i10b 1
+!s100 Y[B4EBzz@@bBlT3A:UeA>3
+IHQPBA8I4a;DFHGL1C>[_M0
+Z1 dF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_5/Assignment/Ass_0
+w1754322905
+8F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_5\Assignment\Ass_0\CRC.v
+FF:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_5\Assignment\Ass_0\CRC.v
+!i122 4
+L0 1 78
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z4 !s108 1754323594.000000
+!s107 F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_5\Assignment\Ass_0\CRC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_5\Assignment\Ass_0\CRC.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@c@r@c
+vCRC_TB
+R0
+!i10b 1
+!s100 O:?MbMdJM]zY?J=ojN5lP1
+ITQz7kf>Wn=f?MK:Te_LTB3
+R1
+w1754323587
+8F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_5/Assignment/Ass_0/CRC_tb.v
+FF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_5/Assignment/Ass_0/CRC_tb.v
+!i122 5
+L0 3 116
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_5/Assignment/Ass_0/CRC_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_5/Assignment/Ass_0/CRC_tb.v|
+!i113 0
+R5
+R6
+n@c@r@c_@t@b

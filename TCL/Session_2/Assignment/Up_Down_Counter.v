@@ -1,0 +1,10 @@
+module $modname(
+input [3 : 0] IN,
+input     Load,
+input     Up,
+input     Down,
+input     CLK,
+output     High,
+output [3 : 0] Counter,
+output     Low
+);

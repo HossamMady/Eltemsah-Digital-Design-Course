@@ -1,0 +1,57 @@
+{F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/FSM_RX.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/FSM_RX.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FSM_RX
+
+Top level modules:
+	FSM_RX
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/stop_check.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/stop_check.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module stop_check
+
+Top level modules:
+	stop_check
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/start_check.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/start_check.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module start_check
+
+Top level modules:
+	start_check
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/Deserializer.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/Deserializer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Deserializer
+
+Top level modules:
+	Deserializer
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/Data_Sampling.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/Data_Sampling.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Data_Sampling
+
+Top level modules:
+	Data_Sampling
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/UART_RX.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/UART_RX.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module UART_RX
+
+Top level modules:
+	UART_RX
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/parity_check.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/parity_check.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module parity_check
+
+Top level modules:
+	parity_check
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/edge_bit_counter.sv} {1 {vlog -work work -vopt -sv -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_RX/edge_bit_counter.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module edge_bit_counter
+
+Top level modules:
+	edge_bit_counter
+
+} {} {}}

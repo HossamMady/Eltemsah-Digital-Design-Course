@@ -1,0 +1,15 @@
+F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B.v {1 {vlog -work work -vopt -stats=none F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_16B
+
+Top level modules:
+	ALU_16B
+
+} {} {}} F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B_tb.v {1 {vlog -work work -vopt -stats=none F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B_tb.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_16B_tb
+
+Top level modules:
+	ALU_16B_tb
+
+} {} {}}

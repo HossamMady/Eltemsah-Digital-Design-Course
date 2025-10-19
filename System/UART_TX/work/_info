@@ -1,0 +1,196 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/questasim64_2021.1/examples
+T_opt
+!s110 1755135750
+VMU>i3]W`9eH]J@UU5TZcB1
+04 10 4 work UART_TX_tb fast 0
+=1-34735aed1a44-689d3f05-28a-2724
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vFSM
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1755138399
+!i10b 1
+!s100 LK4PS44TV^_aH4dQTIMAM0
+IeEH8OZEAQ33UT<VF6SBm;0
+S1
+Z5 dF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX
+w1755056298
+8FSM.sv
+FFSM.sv
+!i122 176
+L0 1 142
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z8 !s108 1755138399.000000
+!s107 parity_Calc.sv|UART_TX_tb.sv|UART_TX.sv|Serializer.sv|MUX.sv|FSM.sv|
+Z9 !s90 -reportprogress|300|FSM.sv|MUX.sv|Serializer.sv|UART_TX.sv|UART_TX_tb.sv|parity_Calc.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@f@s@m
+vMUX
+R3
+R4
+!i10b 1
+!s100 ?>]gLPIh@`=1UhT<oW;I>1
+IH^dJ9jZ@:Id^]1YS4ozTX0
+S1
+R5
+w1755051698
+8MUX.sv
+FMUX.sv
+!i122 176
+Z11 L0 1 50
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 parity_Calc.sv|UART_TX_tb.sv|UART_TX.sv|Serializer.sv|MUX.sv|FSM.sv|
+R9
+!i113 0
+R10
+R2
+n@m@u@x
+vparity_Calc
+R3
+R4
+!i10b 1
+!s100 4:d?Lo=jkhNn2zG<?HPF]2
+IaOG:AajGc<TS;Xh?DHLZC0
+S1
+R5
+w1755050094
+8parity_Calc.sv
+Fparity_Calc.sv
+!i122 176
+R11
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R2
+nparity_@calc
+vSerializer
+R3
+R4
+!i10b 1
+!s100 :z3MM:4_`dzlj_cN2Pldc0
+I1TX3fE>Lkm2a4SKdc[Tnl3
+S1
+R5
+w1755056922
+8Serializer.sv
+FSerializer.sv
+!i122 176
+L0 1 56
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R2
+n@serializer
+vUART_TX
+R3
+R4
+!i10b 1
+!s100 VD:1589jS[[OI>a>lBloi2
+ISklJ9_Shk7a=0G;ac]V1H2
+S1
+R5
+w1755050091
+8UART_TX.sv
+FUART_TX.sv
+!i122 176
+L0 1 70
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R2
+n@u@a@r@t_@t@x
+vUART_TX_tb
+R3
+R4
+!i10b 1
+!s100 mlMk9b7;EknzU0n:ZS_3T0
+ILgHI5VSAP>b`MlKeMe5]O1
+S1
+R5
+w1755133128
+8UART_TX_tb.sv
+FUART_TX_tb.sv
+!i122 176
+L0 2 103
+R6
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R2
+n@u@a@r@t_@t@x_tb

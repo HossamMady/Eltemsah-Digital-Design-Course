@@ -1,0 +1,71 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1752741775
+V<ho>8Lzo8?HA<?JeiIn9C2
+04 10 4 work ALU_16B_tb fast 0
+=1-b40edeb762db-6878b78e-34f-2040
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vALU_16B
+Z2 !s110 1752741752
+!i10b 1
+!s100 Lo>ZOIRFhVCjUN;=m2P=?1
+IMo`aNem`modE5e_ddBb?81
+Z3 dF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3
+w1752741740
+8F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B.v
+FF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B.v
+!i122 10
+L0 1 161
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1752741751.000000
+!s107 F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u_16@b
+vALU_16B_tb
+R2
+!i10b 1
+!s100 :cWG7ZjHmjNjcd0n@6X5V2
+IF;G@XB405UO4E7YjSKNzT3
+R3
+w1752741741
+8F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B_tb.v
+FF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B_tb.v
+!i122 11
+L0 4 264
+R4
+R5
+r1
+!s85 0
+31
+!s108 1752741752.000000
+!s107 F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_3/Assignment_3/ALU_16B_tb.v|
+!i113 0
+R6
+R1
+n@a@l@u_16@b_tb

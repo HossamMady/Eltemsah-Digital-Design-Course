@@ -1,0 +1,158 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1758975975
+V^_@^e[2BjGi]i2ca@Wc9L2
+04 13 4 work Async_fifo_tb fast 0
+=1-b40edeb762db-68d7d7e7-e1-5ba0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vAsync_fifo
+Z2 !s110 1758975974
+!i10b 1
+!s100 Y=4TEJVLIK5kS9Bi=DI<52
+ITJW@cNLb4lzLcekTKFRoB0
+Z3 dF:/EECE/course_workshop/Digital_Design_ Course/CDC/Assignments/Async_FIFO
+w1758975720
+8Async_fifo.v
+FAsync_fifo.v
+!i122 17
+L0 2 78
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1758975974.000000
+Z7 !s107 fifo_wr.v|fifo_rd.v|fifo_mem.v|DF_Sync.v|Async_fifo_tb.v|Async_fifo.v|
+Z8 !s90 -reportprogress|300|Async_fifo.v|Async_fifo_tb.v|DF_Sync.v|fifo_mem.v|fifo_rd.v|fifo_wr.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@async_fifo
+vAsync_fifo_tb
+R2
+!i10b 1
+!s100 <99YoWT:XHXI_zY``X9K>2
+IIUFPaS2_b<AUNa1B>lgaG2
+R3
+w1758975511
+8Async_fifo_tb.v
+FAsync_fifo_tb.v
+!i122 17
+L0 2 168
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@async_fifo_tb
+vDF_Sync
+R2
+!i10b 1
+!s100 Q`c;LPml]mA[GSc4z<DnU0
+If1F314I@_3Nz[hJ:Li1@G0
+R3
+w1758067332
+8DF_Sync.v
+FDF_Sync.v
+!i122 17
+L0 9 31
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@d@f_@sync
+vfifo_mem
+R2
+!i10b 1
+!s100 8W1c=m=Bz34:;Fa=>MPRE1
+IdDXCCNAO:W8=Lg]UFiQ[S3
+R3
+w1758975610
+8fifo_mem.v
+Ffifo_mem.v
+!i122 17
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vfifo_rd
+R2
+!i10b 1
+!s100 nUAmJQ5N:5H3^=:5m7c7=2
+IeKCXmAH;XFj`fe_iM[XMS2
+R3
+w1758972222
+8fifo_rd.v
+Ffifo_rd.v
+!i122 17
+L0 1 57
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vfifo_wr
+R2
+!i10b 1
+!s100 18OX:E6Zen6Ma]H4VaJo30
+ITCYOP_^01<WPWT]0=K1_F0
+R3
+w1758973173
+8fifo_wr.v
+Ffifo_wr.v
+!i122 17
+L0 1 55
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

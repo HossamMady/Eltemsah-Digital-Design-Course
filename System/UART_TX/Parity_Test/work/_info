@@ -1,0 +1,69 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1754843198
+VIZ@3@PoKJh7Z7kmU^U^?J3
+04 14 4 work parity_Calc_tb fast 0
+=1-b40edeb762db-6898c83e-22a-24dc
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vparity_Calc
+Z2 !s110 1754843187
+!i10b 1
+!s100 8]8=j19?ZcLI^`LokDe<50
+IAI030]EImY[ENYDnm1_U22
+Z3 dF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test
+w1754842848
+8F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/parity_Calc.v
+FF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/parity_Calc.v
+!i122 6
+L0 1 50
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1754843187.000000
+!s107 F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/parity_Calc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/parity_Calc.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+nparity_@calc
+vparity_Calc_tb
+R2
+!i10b 1
+!s100 mFA`Qg8nJXk<2z?=_Rg3k1
+IhL?Lj]:PR?o_TO1X;nUYc1
+R3
+w1754843177
+8F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test/parity_Calc_tb.v
+FF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test/parity_Calc_tb.v
+!i122 5
+L0 3 65
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test/parity_Calc_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test/parity_Calc_tb.v|
+!i113 0
+R7
+R1
+nparity_@calc_tb

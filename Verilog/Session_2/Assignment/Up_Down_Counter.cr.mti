@@ -1,0 +1,15 @@
+F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter.v {1 {vlog -work work -vopt -stats=none F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter.v
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Up_Down_Counter
+
+Top level modules:
+	Up_Down_Counter
+
+} {} {}} F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter_tb.v {1 {vlog -work work -vopt -stats=none {F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_2\Assignment\Up_Down_Counter_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Up_Down_Counter_tb
+
+Top level modules:
+	Up_Down_Counter_tb
+
+} {} {}}

@@ -1,0 +1,69 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test
+T_opt
+!s110 1754849931
+Vl=<aPE94LaGV_^h;zR6^X3
+04 13 4 work Serializer_tb fast 0
+=1-b40edeb762db-6898e28b-56-187c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vSerializer
+Z2 !s110 1754849919
+!i10b 1
+!s100 LIaa5@f<C@6VE<88LI7n]2
+I5QXaDmzUiYSeJl=6:>?]<2
+Z3 dF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer_Test
+w1754848916
+8F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer.v
+FF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer.v
+!i122 2
+L0 1 52
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1754849919.000000
+!s107 F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@serializer
+vSerializer_tb
+R2
+!i10b 1
+!s100 cl3kQ]2UCbla1Q4`:O4SP3
+IFQ?:BIV4;N]mH7fOgEc^Z0
+R3
+w1754849898
+8F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer_Test/Serializer_tb.v
+FF:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer_Test/Serializer_tb.v
+!i122 3
+L0 3 60
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer_Test/Serializer_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Serializer_Test/Serializer_tb.v|
+!i113 0
+R7
+R1
+n@serializer_tb

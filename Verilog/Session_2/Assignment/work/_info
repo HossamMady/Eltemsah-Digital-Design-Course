@@ -1,0 +1,72 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/EECE/course_workshop/Digital_Design_Course/Questa_sim_projects/Ass_2
+T_opt
+!s110 1752571258
+Vk:cm^8nO<lmfT:FzdZ?MR0
+04 18 4 work Up_Down_Counter_tb fast 0
+=1-b40edeb762db-68761d79-372-4710
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vUp_Down_Counter
+Z2 !s110 1752571245
+!i10b 1
+!s100 ^z<1BD?:Y<eQi6dm>=aOL2
+IeGL4XE[<;hWCF=ZdDJ[343
+Z3 dF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment
+w1752564920
+8F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter.v
+FF:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter.v
+!i122 16
+L0 1 44
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1752571245.000000
+!s107 F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:/EECE/course_workshop/Digital_Design_Course/Verilog/Session_2/Assignment/Up_Down_Counter.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@up_@down_@counter
+vUp_Down_Counter_tb
+R2
+!i10b 1
+!s100 DPNXP9edVkE7JG6F7:i>?1
+IEAI_JLimKa@Vl0eoAI<8z1
+R3
+w1752571233
+8F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_2\Assignment\Up_Down_Counter_tb.v
+FF:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_2\Assignment\Up_Down_Counter_tb.v
+!i122 17
+L0 4 104
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_2\Assignment\Up_Down_Counter_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|F:\EECE\course_workshop\Digital_Design_Course\Verilog\Session_2\Assignment\Up_Down_Counter_tb.v|
+!i113 0
+R7
+R1
+n@up_@down_@counter_tb

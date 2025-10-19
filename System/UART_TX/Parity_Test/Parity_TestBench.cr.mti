@@ -1,0 +1,15 @@
+{F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test/parity_Calc_tb.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/Parity_Test/parity_Calc_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module parity_Calc_tb
+
+Top level modules:
+	parity_Calc_tb
+
+} {} {}} {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/parity_Calc.v} {1 {vlog -work work -vopt -stats=none {F:/EECE/course_workshop/Digital_Design_ Course/System/UART_TX/parity_Calc.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module parity_Calc
+
+Top level modules:
+	parity_Calc
+
+} {} {}}

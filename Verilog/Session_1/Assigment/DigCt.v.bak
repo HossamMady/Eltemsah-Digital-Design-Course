@@ -1,0 +1,61 @@
+module DigCt
+
+(IN1 , IN2 , IN3 , IN4 , IN5 , CLK , OUT1 , OUT2 , OUT3);
+
+input IN1;
+input IN2;
+input IN3;
+input IN4;
+input IN5;
+input CLK;
+reg output OUT1;
+reg output OUT2;
+reg output OUT3;
+
+reg x;
+reg y;
+reg z;
+
+always @(*) 
+begin
+	
+	x = ~((~(IN1 | IN2)) & (IN3)); 
+		
+end
+
+always @(*) 
+begin
+ 
+	y = ~(IN2 & IN3);
+
+end
+
+always @(*) 
+begin
+	
+	z = ((~(IN4) | IN3) | IN5); 
+		
+end
+
+always @(posedge CLK) 
+begin
+	
+	OUT1 <= x;		
+
+end
+
+always @(posedge CLK) 
+begin
+	
+	OUT2 <= y;		
+
+end
+
+always @(posedge CLK) 
+begin
+	
+	OUT3 <= z;		
+
+end
+
+endmodule
